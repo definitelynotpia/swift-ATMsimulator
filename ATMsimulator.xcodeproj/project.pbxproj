@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB66DC32BE4C66100A6CA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB66DC22BE4C66100A6CA64 /* AppDelegate.swift */; };
+		ACB66DC52BE4C66100A6CA64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB66DC42BE4C66100A6CA64 /* SceneDelegate.swift */; };
+		ACB66DC72BE4C66100A6CA64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB66DC62BE4C66100A6CA64 /* ViewController.swift */; };
+		ACB66DCA2BE4C66100A6CA64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ACB66DC92BE4C66100A6CA64 /* Base */; };
+		ACB66DCC2BE4C66200A6CA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB66DCB2BE4C66200A6CA64 /* Assets.xcassets */; };
+		ACB66DCF2BE4C66200A6CA64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ACB66DCE2BE4C66200A6CA64 /* Base */; };
+		ACB66DDA2BE4C66200A6CA64 /* ATMsimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB66DD92BE4C66200A6CA64 /* ATMsimulatorTests.swift */; };
+		ACB66DE42BE4C66200A6CA64 /* ATMsimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB66DE32BE4C66200A6CA64 /* ATMsimulatorUITests.swift */; };
+		ACB66DE62BE4C66200A6CA64 /* ATMsimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB66DE52BE4C66200A6CA64 /* ATMsimulatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB66DD62BE4C66200A6CA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB66DB72BE4C66100A6CA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB66DBE2BE4C66100A6CA64;
+			remoteInfo = ATMsimulator;
+		};
+		ACB66DE02BE4C66200A6CA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB66DB72BE4C66100A6CA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB66DBE2BE4C66100A6CA64;
+			remoteInfo = ATMsimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACB66DBF2BE4C66100A6CA64 /* ATMsimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATMsimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB66DC22BE4C66100A6CA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACB66DC42BE4C66100A6CA64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACB66DC62BE4C66100A6CA64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACB66DC92BE4C66100A6CA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB66DCB2BE4C66200A6CA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB66DCE2BE4C66200A6CA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB66DD02BE4C66200A6CA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB66DD52BE4C66200A6CA64 /* ATMsimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATMsimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB66DD92BE4C66200A6CA64 /* ATMsimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMsimulatorTests.swift; sourceTree = "<group>"; };
+		ACB66DDF2BE4C66200A6CA64 /* ATMsimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATMsimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB66DE32BE4C66200A6CA64 /* ATMsimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMsimulatorUITests.swift; sourceTree = "<group>"; };
+		ACB66DE52BE4C66200A6CA64 /* ATMsimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMsimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB66DBC2BE4C66100A6CA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB66DD22BE4C66200A6CA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB66DDC2BE4C66200A6CA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB66DB62BE4C66100A6CA64 = {
+			isa = PBXGroup;
+			children = (
+				ACB66DC12BE4C66100A6CA64 /* ATMsimulator */,
+				ACB66DD82BE4C66200A6CA64 /* ATMsimulatorTests */,
+				ACB66DE22BE4C66200A6CA64 /* ATMsimulatorUITests */,
+				ACB66DC02BE4C66100A6CA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB66DC02BE4C66100A6CA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB66DBF2BE4C66100A6CA64 /* ATMsimulator.app */,
+				ACB66DD52BE4C66200A6CA64 /* ATMsimulatorTests.xctest */,
+				ACB66DDF2BE4C66200A6CA64 /* ATMsimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB66DC12BE4C66100A6CA64 /* ATMsimulator */ = {
+			isa = PBXGroup;
+			children = (
+				ACB66DC22BE4C66100A6CA64 /* AppDelegate.swift */,
+				ACB66DC42BE4C66100A6CA64 /* SceneDelegate.swift */,
+				ACB66DC62BE4C66100A6CA64 /* ViewController.swift */,
+				ACB66DC82BE4C66100A6CA64 /* Main.storyboard */,
+				ACB66DCB2BE4C66200A6CA64 /* Assets.xcassets */,
+				ACB66DCD2BE4C66200A6CA64 /* LaunchScreen.storyboard */,
+				ACB66DD02BE4C66200A6CA64 /* Info.plist */,
+			);
+			path = ATMsimulator;
+			sourceTree = "<group>";
+		};
+		ACB66DD82BE4C66200A6CA64 /* ATMsimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB66DD92BE4C66200A6CA64 /* ATMsimulatorTests.swift */,
+			);
+			path = ATMsimulatorTests;
+			sourceTree = "<group>";
+		};
+		ACB66DE22BE4C66200A6CA64 /* ATMsimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB66DE32BE4C66200A6CA64 /* ATMsimulatorUITests.swift */,
+				ACB66DE52BE4C66200A6CA64 /* ATMsimulatorUITestsLaunchTests.swift */,
+			);
+			path = ATMsimulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB66DBE2BE4C66100A6CA64 /* ATMsimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB66DE92BE4C66200A6CA64 /* Build configuration list for PBXNativeTarget "ATMsimulator" */;
+			buildPhases = (
+				ACB66DBB2BE4C66100A6CA64 /* Sources */,
+				ACB66DBC2BE4C66100A6CA64 /* Frameworks */,
+				ACB66DBD2BE4C66100A6CA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATMsimulator;
+			productName = ATMsimulator;
+			productReference = ACB66DBF2BE4C66100A6CA64 /* ATMsimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB66DD42BE4C66200A6CA64 /* ATMsimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB66DEC2BE4C66200A6CA64 /* Build configuration list for PBXNativeTarget "ATMsimulatorTests" */;
+			buildPhases = (
+				ACB66DD12BE4C66200A6CA64 /* Sources */,
+				ACB66DD22BE4C66200A6CA64 /* Frameworks */,
+				ACB66DD32BE4C66200A6CA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB66DD72BE4C66200A6CA64 /* PBXTargetDependency */,
+			);
+			name = ATMsimulatorTests;
+			productName = ATMsimulatorTests;
+			productReference = ACB66DD52BE4C66200A6CA64 /* ATMsimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACB66DDE2BE4C66200A6CA64 /* ATMsimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB66DEF2BE4C66200A6CA64 /* Build configuration list for PBXNativeTarget "ATMsimulatorUITests" */;
+			buildPhases = (
+				ACB66DDB2BE4C66200A6CA64 /* Sources */,
+				ACB66DDC2BE4C66200A6CA64 /* Frameworks */,
+				ACB66DDD2BE4C66200A6CA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB66DE12BE4C66200A6CA64 /* PBXTargetDependency */,
+			);
+			name = ATMsimulatorUITests;
+			productName = ATMsimulatorUITests;
+			productReference = ACB66DDF2BE4C66200A6CA64 /* ATMsimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB66DB72BE4C66100A6CA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ACB66DBE2BE4C66100A6CA64 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					ACB66DD42BE4C66200A6CA64 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ACB66DBE2BE4C66100A6CA64;
+					};
+					ACB66DDE2BE4C66200A6CA64 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ACB66DBE2BE4C66100A6CA64;
+					};
+				};
+			};
+			buildConfigurationList = ACB66DBA2BE4C66100A6CA64 /* Build configuration list for PBXProject "ATMsimulator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB66DB62BE4C66100A6CA64;
+			productRefGroup = ACB66DC02BE4C66100A6CA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB66DBE2BE4C66100A6CA64 /* ATMsimulator */,
+				ACB66DD42BE4C66200A6CA64 /* ATMsimulatorTests */,
+				ACB66DDE2BE4C66200A6CA64 /* ATMsimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB66DBD2BE4C66100A6CA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB66DCC2BE4C66200A6CA64 /* Assets.xcassets in Resources */,
+				ACB66DCF2BE4C66200A6CA64 /* Base in Resources */,
+				ACB66DCA2BE4C66100A6CA64 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB66DD32BE4C66200A6CA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB66DDD2BE4C66200A6CA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB66DBB2BE4C66100A6CA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB66DC72BE4C66100A6CA64 /* ViewController.swift in Sources */,
+				ACB66DC32BE4C66100A6CA64 /* AppDelegate.swift in Sources */,
+				ACB66DC52BE4C66100A6CA64 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB66DD12BE4C66200A6CA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB66DDA2BE4C66200A6CA64 /* ATMsimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB66DDB2BE4C66200A6CA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB66DE62BE4C66200A6CA64 /* ATMsimulatorUITestsLaunchTests.swift in Sources */,
+				ACB66DE42BE4C66200A6CA64 /* ATMsimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB66DD72BE4C66200A6CA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB66DBE2BE4C66100A6CA64 /* ATMsimulator */;
+			targetProxy = ACB66DD62BE4C66200A6CA64 /* PBXContainerItemProxy */;
+		};
+		ACB66DE12BE4C66200A6CA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB66DBE2BE4C66100A6CA64 /* ATMsimulator */;
+			targetProxy = ACB66DE02BE4C66200A6CA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB66DC82BE4C66100A6CA64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB66DC92BE4C66100A6CA64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB66DCD2BE4C66200A6CA64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB66DCE2BE4C66200A6CA64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB66DE72BE4C66200A6CA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACB66DE82BE4C66200A6CA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB66DEA2BE4C66200A6CA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ATMsimulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs319.ATMsimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB66DEB2BE4C66200A6CA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ATMsimulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs319.ATMsimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACB66DED2BE4C66200A6CA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs319.ATMsimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATMsimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ATMsimulator";
+			};
+			name = Debug;
+		};
+		ACB66DEE2BE4C66200A6CA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs319.ATMsimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATMsimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ATMsimulator";
+			};
+			name = Release;
+		};
+		ACB66DF02BE4C66200A6CA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs319.ATMsimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATMsimulator;
+			};
+			name = Debug;
+		};
+		ACB66DF12BE4C66200A6CA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs319.ATMsimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATMsimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB66DBA2BE4C66100A6CA64 /* Build configuration list for PBXProject "ATMsimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB66DE72BE4C66200A6CA64 /* Debug */,
+				ACB66DE82BE4C66200A6CA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB66DE92BE4C66200A6CA64 /* Build configuration list for PBXNativeTarget "ATMsimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB66DEA2BE4C66200A6CA64 /* Debug */,
+				ACB66DEB2BE4C66200A6CA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB66DEC2BE4C66200A6CA64 /* Build configuration list for PBXNativeTarget "ATMsimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB66DED2BE4C66200A6CA64 /* Debug */,
+				ACB66DEE2BE4C66200A6CA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB66DEF2BE4C66200A6CA64 /* Build configuration list for PBXNativeTarget "ATMsimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB66DF02BE4C66200A6CA64 /* Debug */,
+				ACB66DF12BE4C66200A6CA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB66DB72BE4C66100A6CA64 /* Project object */;
+}
